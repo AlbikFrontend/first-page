@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Обращение ко всем отступам */
+/* * { 
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color:rgba(161, 193, 211, 0.702);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    /* font: normal 18px 'Poppins', sans-serif;  В одну строку*/ 
+}
+
+a {
+    color: rgba(12, 12, 176, 0.789);
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:fuchsia;
+}
+
+a:visited {
+    color:rgba(133, 32, 124, 0.945);
+}
+
+
+.photoav {
+    width: 190px;
+    border-radius: 28px;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.373);   
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color:rgba(24, 23, 23, 0.854);
+    margin: 0;
+    font-style: italic;
+    /* text-transform: capitalize; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 2px; */
+}
+     
+     /* Box модель */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+     
+        /* Референс */
+/* .social {
+    background: rgba(36, 208, 151, 0.75);
+    padding: 15px;
+    margin: 5px;
+
+    border: 5px solid rgba(10, 161, 131, 0.879);
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color:rgba(61, 222, 28, 0.811);    
+} */
+
+        /* Пример */
+/* .box-model > div {
+    float: left;
+    background: indigo;
+    height: 200px;
+    border: 4px solid white;
+    width: 25%;
+    box-sizing: border-box;
+} */
+
+.bg-yellow {
+    background: #f9efb3bf;
+}
+
+.bg-green {
+    background: #a8faaee9;
+}
+
+.bg-red {
+    background: #fbc4c4d5;
+}
+
+
+.card {
+    padding: 15px 20px;;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color:rgba(24, 24, 24, 0.946);
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 5px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+    color:rgba(37, 37, 37, 0.921);
+}
+
+.playlist {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(177, 150, 150, 0.676);
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgba(92, 120, 209, 0.349);
+    color: rgb(0, 0, 0);
+    padding: 10px 0 5px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 25px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: rgba(16, 67, 208, 0.93);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.75;
+}
